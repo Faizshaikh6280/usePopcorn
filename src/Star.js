@@ -13,12 +13,12 @@ const startContainer = {
 const textStyle = {
   lineHeight: "1",
   margin: "0",
-  color: "yellow",
+  color: "rgb(252, 196, 25)",
   fontSize: "17px",
 };
 export default function StarRating({
   maxLength = 5,
-  color = "yellow",
+  color = "rgb(252, 196, 25)",
   size = 20,
   onUserRating,
 }) {
